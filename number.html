@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="StyleSheetNumber.css">
+	<meta charset="utf-8"/>
+	<title>Computer Number System</title>
+</head>
+<body>
+    <h1>Computer Number System</h1>
+<section id="intro">
+    <p1>Welcome to the fascinating world of Computer Number Systems! Just like we humans use numbers to count things in our daily lives, 
+        computers have their own special way of counting. In this corner of our website, we'll explore how computers understand and 
+        represent numbers using binary and hexadecimal systems. From the simplest concept of 0s and 1s to the more complex language of hexadecimal, 
+        we'll uncover the secrets behind how computers crunch numbers and make sense of the digital world around us</p1>
+
+    <p2><br><br>Imagine you have a box of candies, and you want to count them. You start counting: 1, 2, 3, 4, and so on. 
+        This is how we count things in our daily lives, using what's called the 
+        decimal number system, where we have ten digits from 0 to 9.</p2>
+
+    <p3><br><br>But did you know computers have their own way of counting? They use something called the binary number system. Instead of ten digits, 
+        they only have two: 0 and 1. 
+        It's like having a box of only two kinds of candies, say chocolate and vanilla.</p3>
+
+    <p4><br><br>So, in binary, counting goes like this: 0, 1, then when you reach 1 and add one more, it goes back to 0 but you put a 1 on the left side, 
+        just like when you count candies and you run out of fingers, 
+         so you start counting on the next hand. It's like a cycle: 0, 1, 10, 11, 100, and so on.</p4>
+
+    <p5><br><br>Now, why do computers use binary? Well, it's because computers work with electronic switches that can either be off (0) or on (1). 
+        It's like having a light switch that can only be either off or on.</p5>
+
+    <p6><br><br>When we want to represent numbers bigger than one in binary, we just keep adding more digits. 
+        For example, the number 2 is written as 10 in binary, 3 is 11, and so on.</p6>
+
+    <p7><br><br>But wait, there's more! Computers also use another number system called hexadecimal. Hexadecimal 
+        is like a mix of our usual decimal system and binary. Instead of just two digits like in binary or ten digits like in decimal, 
+        hexadecimal uses sixteen digits: 0 to 9, and then A to F.</p7>
+
+    <p8><br><br>So, to sum up, computers speak in binary, which is all about 0s and 1s, because that's how their electronic brains work. 
+        And sometimes they also use hexadecimal, 
+        which is like a shortcut language for binary that humans find easier to read and work with.</p8>
+    </section>
+   
+
+  <h2>Theory of bits,bytes,and binary</h2>
+<section id="bytes">
+  <p10><br><br>Like before imagine you have a magical box that can hold two types of candies: chocolate and vanilla. This box is super special because it 
+    can only be in one of two states: either it has a chocolate candy inside or a vanilla one. We can label these states 
+    as 0 for chocolate and 1 for vanilla. This box is just like the smallest unit of information in computers, called a "bit".</p10>
+
+  <p11><br><br>Now, if we want to store more information, we need more boxes. So, imagine we have eight of these magical boxes lined up. 
+    We can fill each box with either chocolate or vanilla, giving us a total of 256 
+    possible combinations (2 to the power of 8). This set of eight boxes is what we call a "byte."</p11>
+
+  <p12><br><br>In the digital world, we use bytes to represent all sorts of things: letters, numbers, colors, sounds, and more. 
+    Each letter you type on your computer, for example, is represented by a unique combination of 
+    these chocolate (0) and vanilla (1) candies in those eight boxes.</p12>
+
+  <p13><br><br>Now, when we talk about binary, we're simply referring to this system of using 0s and 1s to represent information. 
+    It's like a special language that computers understand. Just like how we use our regular numbers 
+    (0 through 9) to count things, computers use binary (0s and 1s) to do their calculations and store information.</p13>
+
+  <p14><br><br>So, to sum it up, bits are like the tiny building blocks of information, bytes are groups of eight of these blocks, 
+    and binary is the language of computers that uses these blocks to represent everything from numbers to 
+    letters to colors and beyond. It's the foundation of how computers understand and process information!</p14>
+    <img id="bits"src="https://i.ytimg.com/vi/y45v5SLjxaM/maxresdefault.jpg">
+</section>
+
+
+<h3>Convert FROM Denary</h3>
+<section id="convert">
+<p15><br><br><strong>Decimal to binary</strong>:<br>Imagine you have a number, let's say 26. To convert this number into binary, we're going to use a 
+    special system where we only have two digits: 0 and 1.<p15>
+
+<p16><br><br>Now, think of 26 as a stack of blocks. We're going to repeatedly divide this stack of blocks by 2 
+    until we can't divide anymore. Each time we divide, we either end up with a block or we don't.<p16>
+
+<p17><br><br>So, when we divide 26 by 2, we have 13 blocks with zero left over. We write down that leftover block as a 0. Then we continue dividing 13 by 2, 
+    which gives us 6.5 blocks with one left over
+    We write down 1 . We keep doing this until we have nothing left to divide.<p17>
+
+<p18><br><br>When we read our "leftover blocks" from bottom to top, we get our binary number. For 26, it's 11010.<p18>
+
+    <img id="hextoBi" src="\MathsWeb\FinalCode\M5.jpg">
+
+    <iframe width="420" height="350" src="https://www.youtube.com/embed/rsxT4FfRBaM?si=k-lXPoGBdPAsbsK0" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen></iframe>
+
+<p19><br><br><strong>Decimal to hexadecimal Conversion</strong>:<br>Now, let's convert 25 into hexadecimal. Hexadecimal is a bit different because instead of just two digits, 
+    we have sixteen. We have 0 through 9, and then we have A, B, C, D, E, and F.<p19>
+
+<p20><br><br>So, when we divide 25 by 16, we get 1 with a remainder of 9. Instead of writing 9, we write the letter "9" because we're using hexadecimal. 
+    Then, when we divide 1 by 16, we get 0 with a remainder of 1.<p20>
+        
+<p21><br><br>So, reading our "remainders" from bottom to top, we get 19. In hexadecimal, 19 is written just like that, as 19.<p21>
+
+    <img id="dectoBi" src="\MathsWeb\FinalCode\M7.png">
+
+    <iframe width="450" height="350" src="https://www.youtube.com/embed/QJW6qnfhC70?si=wfi0OCbjyFvOfO6D" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen></iframe>
+        
+</section>
+<section id="octal">
+<p22><br><br><strong>Decimal to octal Conversion</strong>:<br>Imagine you have a set of blocks, and you can place up to 
+    eight different types of candies in each block. 
+    These candies are labeled from 0 to 7. This set of blocks is what we call an "octal" system.</p22>
+
+<p22><br><br>Now, if you have a number written in octal, like 31, it means you have three blocks filled with candies, 
+    where the first block represents the number of 8-squared candies, and the second block represents the number of 8 candies, and so on.</p22>
+
+<p23><br><br>To convert this octal number to decimal, we'll multiply each digit by powers of 8 and then add them together.</p23>
+
+<p24><br><br>For example, let's convert octal 31 to decimal:</p24>
+
+<p25><br><br>The first digit, 3, represents the number of 8-squared candies, which is 24 (3 x 8^1).<br>
+    The second digit, 1, represents the number of single candies, which is just 1 (1 x 8^0).</p25>
+
+<p26><br><br>Now, we add these together: 24 + 1 = 25.</p26>
+
+<p27><br><br>So, octal number 31 is equivalent to decimal number 25.</p27>
+
+<p28><br><br>In summary, to convert from octal to decimal, we multiply each digit by powers of 8 (starting from the rightmost digit) and then sum up the results.
+     It's like counting in a different system where the base is 8 instead of 10.</p28>
+
+     <iframe id="third" width="450" height="350" src="https://www.youtube.com/embed/ayul1fmZd0Y?si=CnlFXpQ_8ey0NoTH" 
+     title="YouTube video player" 
+     frameborder="0" 
+     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+     referrerpolicy="strict-origin-when-cross-origin" 
+     allowfullscreen></iframe>
+</section>
+
+<p29>Please Click the link<br> below for <br>more detailed information<br>on this topic<br></p29><a href=
+    "https://atlantictu-my.sharepoint.com/personal/etain_kiely_atu_ie/_layouts/OneNote.aspx?id=%2Fpersonal%2Fetain_kiely_atu_ie%2FDocuments%2FClass%20Notebooks%2F23-24%20%20ESSENTIAL%20MATHEMATICS%20FOR%20COMPUTING&wd=target%28T2.%20Computer%20Numbers.one%7CAAA0B9CB-A990-4D32-A240-45CBBCCE8A50%2FC.%20Convert%20FROM%20Denary%20%28Quiz%20qns%20%204-6%5C%29%7C72B7BBD3-A964-4DDA-9AF2-CA429F9E56C2%2F%29
+    onenote:https://atlantictu-my.sharepoint.com/personal/etain_kiely_atu_ie/Documents/Class%20Notebooks/23-24%20%20ESSENTIAL%20MATHEMATICS%20FOR%20COMPUTING/T2.%20Computer%20Numbers.one#C.%20Convert%20FROM%20Denary%20(Quiz%20qns%20%204-6)&section-id={AAA0B9CB-A990-4D32-A240-45CBBCCE8A50}&page-id={72B7BBD3-A964-4DDA-9AF2-CA429F9E56C2}&end"
+    id="BiHexaLink">OneNote
+</a>
+<h4>Binary, Octal and Hexa</h4>
+
+<section id="between">
+    <p37><strong>binary to Hexadecimal</strong></p37>
+    <p30><br><br>Let's imagine we have a bunch of toy blocks, and these blocks can either be painted black or left unpainted. 
+        We want to write down a big number using these blocks, 
+        but instead of just using regular numbers, we're going to use a special way of writing called hexadecimal.</p30>
+
+    <p31><br><br><strong>Grouping the Blocks:</strong> First, we take our blocks and group them into sets of four. 
+        If we don't have enough blocks to make a complete group of four, 
+        we add some extra blocks and paint them unpainted (we call them "zeroes").</p31>
+
+    <p32><br><br><strong>Looking at Each Group:</strong> Now, we look at each group of four blocks. We see what pattern they make. 
+        For example, if the blocks in a group are painted like this: black, black, 
+        unpainted, black, then that pattern represents a specific number or letter.</p32>
+
+    <p33><br><br><strong>Using a Conversion Chart:</strong> We have a special chart that tells us what each pattern of blocks represents. 
+        It's like a secret code! We look at the pattern in each group and find out what number or letter it stands for on our chart.</p33>
+
+        <img id="dectoBi" src="\MathsWeb\FinalCode\M7.png">
+
+    <p34><br><br><strong>Writing Down the Results:</strong> After we figure out what each group represents, we write down the number or letter it corresponds to. 
+        We do this for every group of blocks.</p34>
+
+    <p35><br><br><strong>Putting it All Together:</strong> Finally, we put all the numbers or letters we found together, and that's our big number in hexadecimal!</p35>
+
+    <p36><br><br>So, converting a binary number to hexadecimal is like making a secret code using our toy blocks. We group them, 
+        look at each group to find its meaning on our chart, write down the results, and then put it all together to make our secret code!</p36>
+
+        <img id="dectoBi2" src="\MathsWeb\FinalCode\Screenshot 2024-03-26 095309.png">
+</section>
+<section id="HexatoBi">
+    <p38><br><br> <strong>Hexadecimal to binary</strong></p38>
+
+    <p39><br><br>Let's imagine we have a special kind of puzzle where we use colorful shapes to represent numbers. 
+        This puzzle is called hexadecimal, and it's like a secret code where each shape stands for a different number or letter.</p39>
+
+    <p40><br><br>Here's how we convert from hexadecimal to binary: </p40>
+
+    <p41><br><br><strong>Looking at Each Shape:</strong> First, we look at each shape in our puzzle. Each shape represents a number or letter according to our special chart.</p41>
+
+    <p42><br><br><strong>Finding the Pattern:</strong> We find the pattern of each shape on our chart. For example, 
+        if we have a shape that represents the number 6, we find out what pattern of blocks it corresponds to. </p42>
+
+    <p43><br><br><strong>Writing Down the Blocks:</strong> Once we know the pattern for each shape, we write down the blocks it represents. 
+        Each shape might have a different pattern of blocks.</p43>
+
+    <p44><br><br><strong>Grouping the Blocks:</strong> After writing down the blocks for each shape, we group them into sets of four. 
+        If we don't have enough blocks to make a complete group of four, 
+        we add some extra blocks and paint them unpainted (we call them "zeroes").</p44>
+
+    <p45><br><br>Putting it All Together: Finally, we put all the blocks together from each group, and that's our big number in binary!</p45>
+
+    <p46><br><br>So, converting from hexadecimal to binary is like solving a puzzle. We look at each shape in our puzzle, find out the pattern it represents in our special chart, 
+        write down the blocks for each shape, group them into sets of four, and then put it all together to make our binary number!</p46>
+
+        <img id="hexatobi" src="\MathsWeb\FinalCode\Screenshot 2024-03-27 171816.png">
+</section>
+<section id="HexOct">
+    <p47><strong>Hexadecimal to Octal</strong></p47>
+    <p48><br><br>  let's imagine we're working with a magical coloring book where each color represents a different number or letter. 
+        This coloring book is called hexadecimal. Now, we want to convert these colors into another magical system called octal.</p48>
+
+        <p49><br><br> Here's how we do it:</p49>
+
+        <p50><br><br><strong>Looking at Each Color: </strong>First, we look at each color in our coloring book. Each color represents a specific 
+            number or letter according to our magical guide. </p50>
+
+        <p51><br><br> Understanding the Meaning: We check our magical guide to see what each color represents in terms of numbers.
+             For example, if a color represents the number 7, we note that down.</p51>
+
+        <p52><br><br> <strong>Finding Groups:</strong> After understanding what each color means, we group them into sets of three colors. 
+            If we don't have enough colors to make a complete group of three, we add some extra colors and color them with a special color that means "zero" in our system.</p52>
+
+        <p53><br><br> <strong>Translating to Octal:</strong> Now, we translate each group of three colors into a single number in octal. 
+            Each group of three colors represents a specific number or letter according to our magical chart.</p53>
+
+        <p54><br><br><strong>Putting it Together:</strong> Finally, we put all the numbers together, and that's our big number in octal! </p54>
+
+        <p55><br><br>So, converting from hexadecimal to octal is like working with our magical coloring book. We look at each color, understand what it means in terms of numbers, group them into sets of three, 
+            translate each group into a number in octal, and then put it all together to make our octal number!</p55>
+
+            <img id="HexOctt" src="\MathsWeb\FinalCode\Screenshot 2024-03-28 163111.png">
+</section>
+<section id="Last">
+    <p56><Strong>Octal to Hexadecimal</Strong></p56>
+
+    <p57><br><br> let's imagine we have a special box filled with colorful candies, and each candy represents a number in a magical system called octal. 
+        Now, we want to convert these candies into another magical system called hexadecimal.</p57>
+
+    <p58><br><br>Here's how we do it:</p58>
+
+    <p59><br><br>Understanding Our Candies: First, we look at each candy in our box. 
+        Each candy represents a specific number according to our octal system. We understand what each candy stands for.</p59>
+
+    <p60><br><br>Grouping Our Candies: Next, we group these candies into sets of four. If we don't have enough candies to make a complete group of four,
+         we add some extra candies and consider them as special candies that represent "zero" in our system.</p60>
+
+    <p61><br><br>Translating to Hexadecimal: Now, we translate each group of four candies into a single number or letter in hexadecimal. 
+        Each group of four candies represents a specific number or letter according to our magical chart.</p61>
+
+    <p62><br><br>Putting it Together: Finally, we put all the numbers and letters together, and that's our big number in hexadecimal!</p62>
+
+    <p63><br><br>So, converting from octal to hexadecimal is like playing with our magical candy box. We look at each candy, group them into sets of four, 
+        translate each group into a number or letter in hexadecimal, and then put it all together to make our hexadecimal number!</p63>
+
+        <img id="Lastt" src="\MathsWeb\FinalCode\Screenshot 2024-04-03 142803 - Copy.png">
+</section>
+</html>
